@@ -1,6 +1,6 @@
 .container {
     padding: 0 20px;
-    max-width: 375px;
+    min-width: 320px;
     margin: 0 auto;
 }
 
@@ -33,15 +33,16 @@ body {
     color: #FBFBFB;
     font-size: 14px;
     line-height: 1.28;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: -0.02em;
     margin-bottom: 40px;
 }
 
 .vegetables-list {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     row-gap: 20px;
+    align-items: center;
 }
 
 .vegetables-pic {
@@ -78,5 +79,8 @@ body {
 @media screen and (min-width: 375px) {
     .vegetables-title {
         font-size: 48px;
+        }
+        .container {
+            max-width: 375px;
         }
 }
