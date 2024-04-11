@@ -1,15 +1,17 @@
 <section class="your-order">
-  <div class="container">
-    <h1 class="your-order-title">
-      Fresh <span class="your-order-title-span">Harvest</span> Box has got you
-      covered
-    </h1>
-    <p class="your-order-text">
-      Our boxes are packed with delicious, nutritious vegetables, perfect for
-      anyone looking to eat healthier or support local farmers. Order your box
-      today and start enjoying the best that nature has to offer!
-    </p>
-    <div class="your-order-container">
+  <div class="container your-order-container">
+    <div class="your-order-title-box">
+      <h1 class="your-order-title">
+        Fresh <span class="your-order-title-span">Harvest</span> Box has got you
+        covered
+      </h1>
+      <p class="your-order-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+    </div>
+    <div class="your-order-box">
       <form class="your-order-form-cont" action="">
         <h3 class="your-order-form-title">
           Ordering <span class="your-order-form-span-red">from us</span> is
@@ -21,32 +23,61 @@
           <input
             class="your-order-input"
             type="text"
-            name="username"
+            id="your-order-input"
+            name="your-order-input"
             placeholder="Full Name"
           />
           <input
             class="your-order-input"
             type="email"
             name="email"
+            id="email"
             placeholder="Email"
           />
           <textarea
             class="your-order-textarea"
-            name=""
-            id=""
-            cols="30"
-            rows="10"
+            name="comment"
+            id="comment"
+            
             placeholder="Comment"
           ></textarea>
         </div>
-        <div class="btn-div"><button class="your-order-button" type="submit">Send</button></div>
+        <button class="your-order-button" type="submit">Send</button>
       </form>
+
       <div class="your-order-img-cont">
-        <img
+        <picture>
+          <source
+            srcset="
+              ../img/your-order/img-desk-1x.jpg 1x,
+              ../img/your-order/img-desk-2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ../img/your-order/img-tab-1x.jpg 1x,
+              ../img/your-order/img-tab-2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../img/your-order/img-mob-1x.jpg 1x,
+              ../img/your-order/img-mob-2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+         <img
+          srcset="../img/your-order/img-tab-2x.jpg 2x"
           class="your-order-img"
-          src="../img/your-order/img-mob-1x.jpg"
+          src="../img/your-order/img-tab-1x.jpg"
           alt=""
+          width="528"
+          height="273"
         />
+        </picture>
+        
         <p class="your-order-img-text">Follow us on our social networks:</p>
         <ul class="your-order-list">
           <li class="your-order-item">
