@@ -1,19 +1,41 @@
-
-<section class="cont-how-it-works">
+<section class="cont-how-it-works container">
   <div class="how-it-works">
-    <img
-      class="photo-how-it-works"
-      src="../img/img-how-it/how-it-work-photo.jpg"
-      width="335"
-      height="450"
-      alt="how-it-works"
-    />
+    <picture>
+      <source
+        srcset="
+          ../img/img-how-it/how-it-descktop.jpg    1x,
+          ../img/img-how-it/how-it-descktop-x2.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ../img/img-how-it/how-it-tablet.jpg    1x,
+          ../img/img-how-it/how-it-tablet-x2.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ../img/img-how-it/how-it-mobile.jpg    1x,
+          ../img/img-how-it/how-it-mobile-x2.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        class="photo-how-it-works"
+        src="../img/img-how-it/how-it-work-photo.jpg"
+        width="335"
+        height="450"
+        alt="how-it-works"
+      />
+    </picture>
   </div>
   <div class="description-how-it">
     <p class="tittle-how-it-works">
-      TO ORDER YOUR<br />
-      <span class="span-tittle-how-it">VEGETABLE</span> BASKET,<br />
-      SIMPLY FOLLOW THESE<br />
+      TO ORDER YOUR
+      <span class="span-tittle-how-it">VEGETABLE</span> BASKET, SIMPLY FOLLOW
+      THESE
       <span class="span-tittle-how-it">EASY STEPS</span>
     </p>
     <p class="paragraph-how-it-works">
@@ -24,22 +46,27 @@
     <ol class="list-how-it-works">
       <li class="list-text-how-it">
         <div class="number-list-redackt">1</div>
-        Just choose the vegetable you want to<br />
-        order by clicking on the checkboxes next<br />
-        to it.
+        <p class="paragraph-list-how-it">
+          Just choose
+          <span class="text-paragraph-how-it">the vegetable</span> you want to
+          order by clicking on the checkboxes next to it.
+        </p>
       </li>
       <li class="list-text-how-it">
         <div class="number-list-redackt-two">2</div>
-        Click on the basket and fill out the<br />
-        form.
+        <p class="paragraph-two-list-how-it">
+          Click on <span class="text-paragraph-how-it">the basket</span> and
+          fill out the form.
+        </p>
       </li>
       <li class="list-text-how-it">
         <div class="number-list-redackt-three">3</div>
-        Sit back and relax! Your fresh vegetables<br />
-        basket will be delivered.
+        <p class="paragraph-thre-list-how-it">
+          Sit back and relax! Your
+          <span class="text-paragraph-how-it"> fresh vegetables</span> basket
+          will be delivered.
+        </p>
       </li>
     </ol>
   </div>
 </section>
-
-

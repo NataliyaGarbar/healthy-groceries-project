@@ -2,6 +2,7 @@
     max-width: 375px;
     min-width: 320px;
     margin: 0 auto;
+    padding: 0;
 }
 
 .how-it-works {
@@ -19,6 +20,9 @@
     align-items: center;
     border-radius: 30px;
 
+}
+.photo-how-it-works-tablet {
+    display: none;
 }
 
 .description-how-it {
@@ -57,6 +61,7 @@
     text-align: left;
     color: #FBFBFB;
     margin-top: 20px;
+   
 }
 
 .list-how-it-works {
@@ -147,4 +152,195 @@
     padding-bottom: 11px;
     padding-right: 14px;
     padding-left: 15px;
+}
+.paragraph-list-how-it {
+    font-family: Inter Tight;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    color: rgba(20, 20, 20, 0.6);
+    width: 100%;
+    height: 100%;
+    width: 208px;
+    margin-top: 5px;
+}
+.paragraph-two-list-how-it {
+    font-family: Inter Tight;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    color: rgba(20, 20, 20, 0.6);
+    width: 100%;
+    height: 100%;
+    width: 176px;
+    margin-top: 12px;
+}
+.paragraph-thre-list-how-it {
+    font-family: Inter Tight;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    color: rgba(20, 20, 20, 0.6);
+    width: 100%;
+    height: 100%;
+    width: 211px;
+    margin-top: 12px;
+}
+.text-paragraph-how-it{
+    color: #141414;
+    font-family: Inter Tight;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        text-align: left;
+}
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        /* padding: 0 32px; */
+        
+    }
+    .how-it-works{
+        padding-top: 100px;
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-bottom: 100px;
+    }
+    
+    .photo-how-it-works{
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    }
+    .tittle-how-it-works {
+        width: 450px;
+        font-family: Inter Tight;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: -0.015em;
+            text-align: left;
+            margin-left: 159px;
+    }
+    .span-tittle-how-it{
+        font-family: Inter Tight;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: -0.015em;
+            text-align: left;
+           
+    }
+    .description-how-it{
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 100px;
+        }
+    .paragraph-how-it-works{
+        width: 450px;
+        font-family: Inter Tight;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left;
+            margin-left: 159px;
+            margin-top: 25px;
+    }
+    .list-how-it-works{
+        margin-left: 159px;
+    }
+    .list-text-how-it{
+        max-width: 450px;
+    }
+    .paragraph-list-how-it{
+        width: 325px;
+        font-family: Inter Tight;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: -0.02em;
+            text-align: left;
+    }
+    .text-paragraph-how-it{
+        font-family: Inter Tight;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: -0.02em;
+            text-align: left;
+    }
+    .paragraph-two-list-how-it {
+        width: 325px;
+            font-family: Inter Tight;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            margin-top: 16px;
+    }
+    .paragraph-thre-list-how-it{
+        width: 325px;
+            font-family: Inter Tight;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            margin-top: 6px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        /* padding: 0 0; */
+        display: flex;
+    }
+    .photo-how-it-works {
+        display: flex;
+        width: 430px;
+        height: 559px;
+        margin: 0 100px;
+    }
+    .photo-how-it-works-tablet{
+        display: none;
+    }
+    .how-it-works{
+        width: 630px;
+            height: 759px;
+            padding: 100px 0px 0px 0px;
+            gap: 10px;
+            opacity: 0px;
+    }
+    .description-how-it{
+        width: 650px;
+            height: 759px;
+            top: 800px;
+            left: 630px;
+            padding: 100px 100px 160px 100px;
+            gap: 10px;
+            opacity: 0px;
+    }
+        .tittle-how-it-works{
+            margin-left: 0;
+        }
+    .paragraph-how-it-works{
+        margin-left: 0;
+    }
+    .list-how-it-works {
+        margin-left: 0;
+    }
+    .list-text-how-it {
+        margin-top: 0;
+    }
 }
