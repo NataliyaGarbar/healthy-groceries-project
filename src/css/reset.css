@@ -1,3 +1,8 @@
+body {
+  font-family: 'Inter Tight', sans-serif;
+  color: #fbfbfb;
+}
+
 /* Reset styles */
 h1,
 h2,
@@ -28,4 +33,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  padding: 0 16px;
+  margin: 0 auto;
 }
