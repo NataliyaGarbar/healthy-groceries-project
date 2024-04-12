@@ -1,11 +1,23 @@
 .hero {
-  background-color: #576F35;
+  width: 100%;
+  height: 692px;
+  background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
+    url(../img/hero/vegetables-mob.jpg) no-repeat center bottom;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
+      url(../img/hero/vegetables-mob2x.jpg) no-repeat center bottom;
+  }
 }
 
 .hero-container {
-  width: 320px;
+  min-width: 300px;
+  min-height: 322px;
   background-color: #576F35;
-  padding: 0;
 }
 
 img {
@@ -14,8 +26,18 @@ img {
 }
 
 @media screen and (min-width: 375px) {
+  .hero {
+    width: 375px;
+    background-size: 375px;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 375px;
+  }
+
   .hero-container {
-    width: 335px;
+    min-width: 335px;
     margin: 0 auto;
   }
 }
@@ -32,7 +54,6 @@ h1 {
 }
 
 .hero-title {
-  width: 335px;
   margin-bottom: 20px;
 }
 
@@ -47,8 +68,24 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    width: 768px;
+    height: 902px;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
+      url(../img/hero/vegetables-tab.jpg) no-repeat center bottom;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+      background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
+        url(../img/hero/vegetables-tab2x.jpg) no-repeat center bottom;
+    }
+  }
+
   .hero-container {
-    width: 704px;
+    min-width: 704px;
     margin: 0 auto;
   }
 
@@ -63,6 +100,10 @@ h1 {
     min-height: 228px;
   }
 
+  p {
+    margin-bottom: 40px;
+  }
+
   .hero-content {
     font-size: 16px;
     line-height: 125%;
@@ -71,37 +112,38 @@ h1 {
     margin-bottom: 50px;
   }
 
-  img {
-    min-width: 768px;
-    background-position: center;
-  }
 }
 
 @media screen and (min-width: 1280px) {
-  .hero-img {
-    display: none;
-  }
-
   .hero {
     width: 1280px;
-    background-color: #576F35;
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero/vegetables-desk.jpg);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: auto;
+    height: 562px;
+    background: linear-gradient(to right, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
+      url(../img/hero/vegetables-desk.jpg) no-repeat right;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+      background: linear-gradient(to right, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
+        url(../img/hero/vegetables-desk2x.jpg) no-repeat right;
+      background-size: cover;
+    }
   }
 
   .hero-container {
     width: 640px;
-    height: 800px;
+    height: 562px;
     margin: 0;
-    padding: 154px 38px 50px 100px;
+    padding: 0 28px 50px 100px;
   }
 
   .hero-title {
     width: 502px;
     min-height: 304px;
-    margin-bottom: 178px;
+    margin: 0;
+    margin-bottom: 128px;
   }
 
   .hero-content {
