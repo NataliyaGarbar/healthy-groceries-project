@@ -1,10 +1,14 @@
 <header class="header">
   <div class="container header-container">
     <a href="index.html" class="logo"
-      ><svg width="16" height="16">
+      ><svg class="header-logo-left" width="16" height="16">
         <use href="../img/icons.svg#icon-logo"></use>
       </svg>
+      <svg class="header-logo-right" width="148" height="12">
+        <use href="../img/icons.svg#icon-logotext"></use>
+      </svg>
     </a>
+
     <ul class="header-menu">
       <li class="header-link-how">
         <a class="header-item" href="">How It Works</a>
@@ -17,11 +21,33 @@
       </li>
     </ul>
     <button class="header-btn" type="button">Shop now</button>
-    <button class="open-menu-mob" type="button">
+    <button class="open-menu-btn" type="button">
       <svg width="32" height="32">
         <use href="../img/icons.svg#icon-menu"></use>
       </svg>
     </button>
   </div>
+  <div class="mob-menu">
+    <div class="mob-menu-top">
+      <button type="button" class="close-menu-btn">
+        <svg class="close-icon" width="32" height="32">
+          <use href="../img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mob-menu-nav">
+        <ul class="mob-menu-list">
+          <li class="mob-menu-item">
+            <a class="mob-menu-link" href="">How It Works</a>
+          </li>
+          <li class="mob-menu-item">
+            <a class="mob-menu-link" href="">Vegetables</a>
+          </li>
+          <li class="mob-menu-item">
+            <a class="mob-menu-link" href="">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <button type="button" class="header-button">Shop now</button>
+  </div>
 </header>
-
