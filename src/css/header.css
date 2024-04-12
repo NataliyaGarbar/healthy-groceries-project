@@ -213,32 +213,42 @@
     display: none;
   }
 
-  .header,
-  .hero {
+  .header {
     width: 100%;
     height: 186px;
-    background: linear-gradient(to right, #576F35, #576F35 50%, transparent 50%),
+    background-image: linear-gradient(to right, #576F35, #576F35 50%, transparent 50%),
       url('../img/hero/vegetables-desk.jpg') no-repeat right;
-    background-size: cover;
     background-size: auto;
+  }
 
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .header {
+      background: linear-gradient(to right,
+          #576F35,
+          #576F35 50%,
+          transparent 50%),
+        url('../img/hero/vegetables-desk2x.jpg') no-repeat right;
+    }
   }
 
   .header-container {
-    width: 1240px;
+    width: 1180px;
     min-height: 52px;
+    justify-content: space-around;
 
   }
 
   .header-nav {
     display: flex;
     text-align: center;
-    justify-content: space-between;
   }
 
   .header-menu {
     display: flex;
     gap: 8px;
+    margin-left: 397px;
   }
 
   .header-link-how>a {
@@ -297,4 +307,13 @@
     color: #fbfbfb;
   }
 
+  button:hover,
+  button:focus {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+
+  .buttin:active {
+    color: #fbfbfb;
+  }
 }
