@@ -3,18 +3,25 @@
 }
 
 .hero-container {
-  min-width: 320px;
+  width: 320px;
   background-color: #576F35;
+  padding: 0;
+}
+
+img {
+  background-position: center;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 375px) {
   .hero-container {
-    width: 375px;
+    width: 335px;
+    margin: 0 auto;
   }
 }
 
 h1 {
-  font-family: "Inter Tight SemiBold", sans-serif;
+  font-family: "Inter Tight SemiBold", 'SemiBold', sans-serif;
   font-weight: 600;
   font-size: 48px;
   line-height: 100%;
@@ -24,12 +31,8 @@ h1 {
   margin: 0 auto;
 }
 
-p {
-  margin: 0 auto;
-}
-
 .hero-title {
-  max-width: 335px;
+  width: 335px;
   margin-bottom: 20px;
 }
 
@@ -40,30 +43,70 @@ p {
   font-size: 14px;
   line-height: 129%;
   color: #FBFBFB;
-  padding: 0 20px 40px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .hero-container {
-    width: 768px;
+    width: 704px;
+    margin: 0 auto;
   }
 
   h1 {
     font-size: 76px;
+
   }
 
   .hero-title {
-    max-width: 704px;
     margin-bottom: 25px;
+    width: 704px;
+    min-height: 228px;
   }
 
   .hero-content {
     font-size: 16px;
     line-height: 125%;
-    padding: 0 101px 50px 32px;
+    width: 603px;
+    height: 60px;
+    margin-bottom: 50px;
   }
 
   img {
-    width: 768px;
+    min-width: 768px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-img {
+    display: none;
+  }
+
+  .hero {
+    width: 1280px;
+    background-color: #576F35;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero/vegetables-desk.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  .hero-container {
+    width: 640px;
+    height: 800px;
+    margin: 0;
+    padding: 154px 38px 50px 100px;
+  }
+
+  .hero-title {
+    width: 502px;
+    min-height: 304px;
+    margin-bottom: 178px;
+  }
+
+  .hero-content {
+    width: 472px;
+    height: 80px;
+    margin: 0;
   }
 }
