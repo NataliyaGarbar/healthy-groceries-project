@@ -83,7 +83,7 @@
 /* media */
 
 @media screen and (min-width: 375px) {
-  .container {
+  .reviews-section {
     max-width: 375px;
   }
 }
