@@ -1,0 +1,153 @@
+.reviews-section {
+  padding: 80px 20px;
+  background-color: #fbfbfb;
+  margin: 0 auto;
+}
+.reviews-top {
+  margin-bottom: 40px;
+}
+
+.reviews-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 104%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  padding-bottom: 20px;
+}
+
+.reviews-title-part {
+  color: #576f35;
+}
+
+.reviews-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: #141414;
+}
+
+.reviews {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+
+.reviews {
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  border-radius: 24px;
+  min-height: 238px;
+  padding-left: 16.5px;
+  padding-right: 16.5px;
+  padding-top: 20px;
+  padding-bottom: 38px;
+}
+
+.reviews-phone {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.reviews-img {
+  border-radius: 100px;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+}
+
+.review-description-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-top: 24px;
+}
+
+.review-description-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* media */
+/* media */
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section {
+    max-width: 768px;
+    padding: 100px 32px;
+  }
+  .reviews-top {
+    width: 553px;
+    min-height: 193px;
+  }
+  .reviews-title {
+    font-size: 64px;
+    line-height: 100%;
+  }
+  .reviews-text {
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .review-description-title {
+    font-size: 18px;
+    line-height: 110%;
+    color: #141414;
+  }
+  .review-description-text {
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(20, 20, 20, 0.4);
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .reviews-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+  .reviews {
+    width: 343px;
+    min-height: 258px;
+    padding: 20px;
+  }
+  .reviews-tablet {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  .reviews-section {
+    padding: 100px 100px;
+  }
+  .reviews {
+    gap: 25px;
+  }
+  .reviews-pc {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+  }
+}
