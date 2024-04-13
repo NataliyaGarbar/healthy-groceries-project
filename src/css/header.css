@@ -182,14 +182,6 @@
     height: 18px;
   }
 
-  .mob-menu {
-    top: 50%;
-    left: 60%;
-    width: 351px;
-    height: 100%;
-    transform: translate(-12%, -50%);
-  }
-
   .header-button {
     background-color: #fbfbfb;
     color: #7A3145;
@@ -206,6 +198,94 @@
     width: 40px;
     height: 40px;
   }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 20, 20, 0.4);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .modal-overlay.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .tab-menu {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    background-color: #7A3145;
+    width: 351px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translate(-12%, -50%);
+    padding: 20px;
+  }
+
+  .close-menu-btn {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 240px;
+    border: none;
+    background-color: #7a3145;
+  }
+
+  .close-icon {
+    stroke: #fbfbfb;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .tab-menu-top {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .tab-menu-nav {
+    align-self: center;
+  }
+
+  .tab-menu-list {
+    margin-bottom: 50px;
+
+  }
+
+  .tab-menu-item {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px 0;
+    width: 115px;
+    height: 42px;
+    align-content: center;
+  }
+
+  .tab-menu-item:not(:last-child) {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .tab-menu-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -217,7 +297,7 @@
     width: 100%;
     height: 186px;
     background-image: linear-gradient(to right, #576F35, #576F35 50%, transparent 50%),
-      url('../img/hero/vegetables-desk.jpg') no-repeat right;
+      no-repeat right;
     background-size: auto;
   }
 
@@ -228,8 +308,7 @@
       background: linear-gradient(to right,
           #576F35,
           #576F35 50%,
-          transparent 50%),
-        url('../img/hero/vegetables-desk2x.jpg') no-repeat right;
+          transparent 50%);
     }
   }
 
@@ -316,4 +395,5 @@
   .buttin:active {
     color: #fbfbfb;
   }
+
 }
