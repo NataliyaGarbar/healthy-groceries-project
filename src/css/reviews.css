@@ -72,6 +72,7 @@
 }
 
 .review-description-text {
+  font-weight: 500;
   font-family: Inter Tight Medium;
   font-size: 14px;
   line-height: 129%;
