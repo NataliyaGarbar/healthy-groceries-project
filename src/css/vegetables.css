@@ -100,10 +100,6 @@
     }
 }
 @media screen and (min-width: 1280px) {
-    .vegetables {
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
     .vegetables-title {
         margin-bottom: 25px;
         }
