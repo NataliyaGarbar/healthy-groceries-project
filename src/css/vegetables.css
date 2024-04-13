@@ -7,7 +7,6 @@
 .vegetables-title {
     text-transform: uppercase;
     font-size: 46px;
-    color: #FBFBFB;
     line-height: 1.04;
     font-weight: 600;
     letter-spacing: -0.015em;
@@ -19,7 +18,6 @@
 }
 
 .vegetables-paragraph {
-    color: #FBFBFB;
     font-size: 14px;
     line-height: 1.28;
     font-weight: 500;
@@ -103,8 +101,9 @@
     }
 }
 @media screen and (min-width: 1280px) {
-    .container {
-        padding: 0 100px;
+    .vegetables {
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     .vegetables-title {
         margin-bottom: 25px;
