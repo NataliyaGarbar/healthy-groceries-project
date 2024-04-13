@@ -95,6 +95,11 @@
     color: #fbfbfb;
 }
 
+
+.footer-end-content{
+    display: flex;
+    flex-direction: row;
+}
 .footer-end{ 
     font-family: "Inter Tight", sans-serif;
     font-weight: 500;
@@ -106,6 +111,7 @@
 }
 
 .footer-the-end{
+    margin-top: 80px;
     font-family: "Inter Tight", sans-serif;
     font-weight: 500;
     font-size: 12px;
