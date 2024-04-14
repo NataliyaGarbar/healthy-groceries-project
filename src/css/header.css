@@ -171,13 +171,16 @@
 }
 
 @media screen and (min-width: 375px) {
-  .header-container {
+  .header {
     width: 375px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .header {
+    width: 768px;
+    margin: 0 auto;
     padding-top: 32px;
     padding-bottom: 50px;
   }
@@ -305,8 +308,11 @@
   }
 
   .header {
-    width: 100%;
-    height: 186px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 1280px;
     background-image: linear-gradient(to right, #576F35, #576F35 50%, transparent 50%),
       no-repeat right;
     background-size: auto;
@@ -325,9 +331,6 @@
 
   .header-container {
     width: 1180px;
-    min-height: 52px;
-    justify-content: space-around;
-
   }
 
   .header-nav {
@@ -338,7 +341,7 @@
   .header-menu {
     display: flex;
     gap: 8px;
-    margin-left: 397px;
+    align-items: center;
   }
 
   .header-link-how>a {
@@ -395,6 +398,7 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
+    margin-left: 20px;
   }
 
   button:hover,
