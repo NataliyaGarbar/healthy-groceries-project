@@ -1,5 +1,6 @@
 .footer{
     background-color: #7a3145;
+    
 }
 
 .footer .footer-container{
@@ -101,7 +102,10 @@
     color: rgba(251, 251, 251, 0.5);
     margin-top: 80px;
 }
-
+.footer-span{
+    margin-left: 8px;
+    margin-right: 8px;
+}
 .footer-the-end{
     margin-top: 80px;
     font-weight: 500;
@@ -143,10 +147,12 @@
 
 }
 .footer-address-menu{
-    margin-left: auto;
 }
 
+.footer-menu-item {
+    display: flex;
 
+}
 .footer-adress-link{
     font-size: 18px;
     line-height: 20px;
@@ -179,6 +185,6 @@
 
 @media screen and (min-width: 1280px) {
     .footer .footer-container {
-       
+    max-width: 1158px;
     }
 }
