@@ -1,7 +1,7 @@
 .cont-how-it-works {
-    max-width: 375px;
+    /* max-width: 375px; */
     min-width: 320px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 0;
 }
 
@@ -201,11 +201,11 @@
         text-align: left;
 }
 @media screen and (min-width: 768px) {
-    .container {
+    /* .container {
         max-width: 768px;
-        /* padding: 0 32px; */
+        padding: 0 32px;
         
-    }
+    } */
     .how-it-works{
         padding-top: 100px;
         padding-left: 64px;
@@ -301,8 +301,8 @@
 
 @media screen and (min-width: 1280px) {
     .container {
-        max-width: 1280px;
-        /* padding: 0 0; */
+        /* max-width: 1280px;
+        padding: 0 0; */
         display: flex;
     }
     .photo-how-it-works {
