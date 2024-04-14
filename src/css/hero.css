@@ -1,28 +1,32 @@
 .hero {
   width: 375px;
-  height: 812px;
+  min-height: 812px;
   background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-    url(../img/hero/vegetables-mob.jpg) no-repeat center bottom;
-  background-size: auto;
+    url(/img/hero/vegetables-mob.jpg) no-repeat center bottom/430px;
+  background-color: #576F35;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .hero {
-
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-      url(../img/hero/vegetables-mob2x.jpg) no-repeat center bottom/476px;
+      url(/img/hero/vegetables-mob2x.jpg) no-repeat center bottom/476px;
+
+    background-color: #576F35;
+
   }
 }
 
 .hero-container {
+
   min-width: 300px;
   background-color: #576F35;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  padding: 48px 20px 40px;
 
 }
 
@@ -31,15 +35,9 @@
     width: 375px;
     margin: 0 auto;
   }
-
-  .hero-container {
-    min-width: 335px;
-    margin: 0 auto;
-  }
 }
 
 h1 {
-  font-family: "Inter Tight SemiBold", 'SemiBold', sans-serif;
   font-weight: 600;
   font-size: 48px;
   line-height: 100%;
@@ -60,16 +58,15 @@ h1 {
   font-size: 14px;
   line-height: 129%;
   color: #FBFBFB;
-  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .hero {
     width: 768px;
-    height: 902px;
+    min-height: 1024px;
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-      url(../img/hero/vegetables-tab.jpg) no-repeat center bottom;
-    background-size: contain;
+      url(/img/hero/vegetables-tab.jpg) no-repeat center bottom/873px;
+    background-color: #576F35;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -77,15 +74,24 @@ h1 {
   (min-resolution: 2dppx) {
     .hero {
       background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-        url(../img/hero/vegetables-tab2x.jpg) no-repeat center bottom;
-      background-size: contain;
+        url(/img/hero/vegetables-tab2x.jpg) no-repeat center bottom/873px;
+      background-color: #576F35;
     }
   }
 
+  .hero-container {
+    padding: 48px 32px 50px;
+  }
+
+  h1 {
+    font-size: 76px;
+    width: 704px;
+  }
+
+
   .hero-title {
     margin-bottom: 25px;
-    width: 704px;
-    min-height: 228px;
+
   }
 
   .hero-content {
@@ -93,7 +99,7 @@ h1 {
     line-height: 125%;
     width: 603px;
     height: 60px;
-    margin-bottom: 50px;
+
   }
 
 }
@@ -102,11 +108,10 @@ h1 {
 @media screen and (min-width: 1280px) {
   .hero {
     width: 1280px;
-    height: 800px;
+    min-height: 800px;
     background: linear-gradient(to right, rgba(20, 20, 20, 0.2) 0%,
         rgba(20, 20, 20, 0.2) 100%),
-      url(../img/hero/vegetables-desk.jpg) no-repeat right;
-    background-size: auto;
+      url(/img/hero/vegetables-desk.jpg) no-repeat top right;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -115,27 +120,30 @@ h1 {
     .hero {
       background: linear-gradient(to right, rgba(20, 20, 20, 0.2) 0%,
           rgba(20, 20, 20, 0.2) 100%),
-        url(../img/hero/vegetables-desk2x.jpg) no-repeat right/650px;
+        url(/img/hero/vegetables-desk2x.jpg) no-repeat top right/650px;
     }
   }
 
   .hero-container {
-    max-width: 640px;
+    width: 640px;
     height: 800px;
     margin: 0;
-    padding: 238px 28px 50px 100px;
+    padding: 238px 28px 0 100px;
+    background-color: #576F35;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .hero-title {
     width: 502px;
-    min-height: 304px;
-    margin: 0;
-    margin-bottom: 128px;
+    margin-bottom: 0;
   }
 
   .hero-content {
     width: 472px;
     height: 80px;
-    margin: 0;
+    margin-bottom: 50px;
   }
+
 }
