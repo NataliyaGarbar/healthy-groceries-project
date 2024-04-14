@@ -79,7 +79,7 @@
 
 
 
-.list-how-it-works {
+/* .list-how-it-works {
     counter-reset: my-awesome-counter;
 
 }
@@ -92,7 +92,10 @@
 .custom-counter>li::before {
     content: counter(my-awesome-counter) ". ";
     font-weight: bold;
-}
+} */
+
+
+
 
 /* СЧЕТЧИК ВАР 2 */
 
@@ -101,9 +104,9 @@
     list-style-type: none;
 }
 
-.list-text-how-it::before {
+.list-text-how-it::before .number-list-redackt {
         counter-increment: section;
-        content: counters(section, ".") " "
+        content: counters(section, ".") " ";
     }
 
 
