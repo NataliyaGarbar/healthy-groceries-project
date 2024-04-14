@@ -183,7 +183,24 @@
 
 
 @media screen and (min-width: 1280px) {
-    .footer-container {
-
+.footer .footer-container{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 50px 100px;
+     margin: 0 auto;
+     gap: 0
     }
+
+    
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 120px;
 }
+
+}
+
+
