@@ -1,6 +1,5 @@
 .footer{
     background-color: #7a3145;
-    /* padding: 40px 0; */
 }
 
 .footer .footer-container{
@@ -34,7 +33,6 @@
 }
 
 .footer-text{
-    font-family: "Inter Tight", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
@@ -47,8 +45,6 @@
 
 
 .footer-menu{
-    font-family: "Inter Tight",
-    sans-serif;
     font-weight: 600;
     font-size: 28px;
     line-height: 28px;
@@ -75,7 +71,6 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px; 
@@ -85,7 +80,6 @@
 }
 
 .footer-adress-link{
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
@@ -100,7 +94,6 @@
     flex-direction: row;
 }
 .footer-end{ 
-    font-family: "Inter Tight", sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px; 
@@ -111,7 +104,6 @@
 
 .footer-the-end{
     margin-top: 80px;
-    font-family: "Inter Tight", sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
@@ -121,10 +113,6 @@
 
 @media screen and (min-width: 768px) {
  
-    .container{
-        max-width: 768px;
-    }
-
  .footer .footer-container {
     flex-direction: row;
     gap: 64px;
@@ -188,6 +176,9 @@
 }
 
 
+
 @media screen and (min-width: 1280px) {
-    
+    .footer .footer-container {
+       
+    }
 }
