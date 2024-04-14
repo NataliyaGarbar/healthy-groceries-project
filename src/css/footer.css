@@ -13,7 +13,7 @@
     max-width: 375px;
     min-width: 320px;
     padding: 40px 20px;
-    margin: 0 auto;
+     margin: 0 auto;
 }
 
 .footer-navigation{
@@ -183,10 +183,10 @@
     line-height: 20px; 
     line-height: 1.1;
     opacity: 0.1;
+    
 }
 
 }
-
 
 
 @media screen and (min-width: 1280px) {
