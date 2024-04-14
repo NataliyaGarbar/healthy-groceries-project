@@ -2,7 +2,7 @@
   width: 375px;
   min-height: 812px;
   background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-    url(../img/hero/vegetables-mob.jpg) no-repeat center bottom/430px;
+    url(https: //nataliyagarbar.github.io/healthy-groceries-project/img/hero/vegetables-mob.jpg) no-repeat center bottom/430px;
   background-color: #576F35;
 }
 
@@ -11,7 +11,7 @@
 (min-resolution: 2dppx) {
   .hero {
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-      url(../img/hero/vegetables-mob2x.jpg) no-repeat center bottom/430px;
+      url(https: //nataliyagarbar.github.io/healthy-groceries-project/img/hero/vegetables-mob2x.jpg) no-repeat center bottom/430px;
     background-color: #576F35;
   }
 }
@@ -55,7 +55,7 @@ h1 {
     width: 768px;
     min-height: 1024px;
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-      url(../img/hero/vegetables-tab.jpg) no-repeat center bottom/873px;
+      url(https: //nataliyagarbar.github.io/healthy-groceries-project/img/hero/vegetables-tab.jpg) no-repeat center bottom/873px;
     background-color: #576F35;
   }
 
@@ -64,7 +64,7 @@ h1 {
   (min-resolution: 2dppx) {
     .hero {
       background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-        url(../img/hero/vegetables-tab2x.jpg) no-repeat center bottom/873px;
+        url(https: //nataliyagarbar.github.io/healthy-groceries-project/img/hero/vegetables-tab2x.jpg) no-repeat center bottom/873px;
       background-color: #576F35;
     }
   }
@@ -101,7 +101,7 @@ h1 {
     min-height: 800px;
     background: linear-gradient(to right, rgba(20, 20, 20, 0.2) 0%,
         rgba(20, 20, 20, 0.2) 100%),
-      url(../img/hero/vegetables-desk.jpg) no-repeat top right;
+      url(https: //nataliyagarbar.github.io/healthy-groceries-project/img/hero/vegetables-desk.jpg) no-repeat top right;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -110,7 +110,7 @@ h1 {
     .hero {
       background: linear-gradient(to right, rgba(20, 20, 20, 0.2) 0%,
           rgba(20, 20, 20, 0.2) 100%),
-        url(../img/hero/vegetables-desk2x.jpg) no-repeat top right/650px;
+        url(https: //nataliyagarbar.github.io/healthy-groceries-project/img/hero/vegetables-desk2x.jpg) no-repeat top right/650px;
     }
   }
 
