@@ -10,7 +10,6 @@
     padding-right: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-
     background-color: #7A3145;
 }
 
@@ -320,7 +319,7 @@
             height: 759px;
             padding: 100px 0px 0px 0px;
             gap: 10px;
-            opacity: 0px;
+            /* opacity: 0px; */
     }
     .description-how-it{
         width: 650px;
@@ -329,7 +328,7 @@
             left: 630px;
             padding: 100px 100px 160px 100px;
             gap: 10px;
-            opacity: 0px;
+            /* opacity: 0px; */
     }
         .tittle-how-it-works{
             margin-left: 0;
@@ -340,7 +339,7 @@
     .list-how-it-works {
         margin-left: 0;
     }
-    .list-text-how-it {
+    .list-text-how-it{
         margin-top: 0;
     }
 }
