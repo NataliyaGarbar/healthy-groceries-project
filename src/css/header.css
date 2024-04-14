@@ -305,7 +305,7 @@
     right: 0;
     left: 0;
     width: 1280px;
-    background-image: linear-gradient(to right, #576F35, #576F35 50%, transparent 50%),
+    background-image: linear-gradient(to right, #576F35, #576F35 45%, transparent 55%),
       no-repeat right;
     background-size: auto;
   }
