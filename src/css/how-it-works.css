@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+.hidden-how-it-works {
+        position: absolute;
+        left: -9999px;
+        top: -9999px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+}
 .how-it-works {
     padding-left: 20px;
     padding-right: 20px;
