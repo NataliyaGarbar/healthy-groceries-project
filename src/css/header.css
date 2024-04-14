@@ -338,7 +338,7 @@
   .header-menu {
     display: flex;
     gap: 8px;
-    margin-left: 397px;
+    align-items: center;
   }
 
   .header-link-how>a {
