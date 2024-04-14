@@ -1,27 +1,12 @@
 .discount{
-   
+
+    padding-top: 20px;
+    padding-bottom: 80px;
     box-sizing: border-box;
 
 }
-.discount-visually-hidden {
-    position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-}
-.discount-contener{
-text-transform: uppercase;
-    padding-left: 83px;
-    padding-top: 20px;
-    padding-bottom: 80px;
-    padding-right: 20px;
-}
+
+
 
 .discount-text{
    
@@ -36,49 +21,32 @@ text-transform: uppercase;
     background-color: #576f35;
     border-radius: 12px;
         color:  #fbfbfb;
-        font-weight: 600;
-            font-size: 48px;
-            line-height: 104%;
-            letter-spacing: -0.01em;
-            text-transform: uppercase;
         display: block;
         
 }
 
-@media screen and (min-width: 320px) {
-    .discount {
-        width: 100%;
-    }
-}
+
 @media screen and (min-width: 375px) {
     
 }
 @media screen and (min-width: 768px) {
-    .discount-contener {
-            padding-left: 32px;
+    .discount {
+            
             padding-top: 108px;
-            padding-right: 32px;
             padding-bottom: 100px;
-    
-    
         }
     .discount-text {
     font-size: 64px;
         line-height: 109%
        
     }
-    .discount-text-green{
-        font-size: 64px;
-            line-height: 109%
-    }
+    
    
 }
 @media screen and (min-width: 1280px) {
     
-    .discount-contener{
-        padding-left: 113px;
-            padding-top: 100px;
-            padding-right: 113px;
+    .discount{
+        padding-top: 100px;
             padding-bottom: 100px;
             display: none;
             
@@ -88,9 +56,5 @@ text-transform: uppercase;
             line-height: 105%;
 
     }
-    .discount-text-green{
-        font-size: 76px;
-            line-height: 105%;
-
-    }
+    
 }
