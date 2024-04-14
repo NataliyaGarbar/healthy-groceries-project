@@ -57,7 +57,7 @@
     padding-top: 40px;
 }
 
-.footer-menu-intem{
+.footer-menu-item{
    margin-bottom: 14px;
    font-weight: 600;
    font-size: 28px;
@@ -98,7 +98,6 @@
 .footer-end-content{
     display: flex;
     flex-direction: row;
-    
 }
 .footer-end{ 
     font-family: "Inter Tight", sans-serif;
@@ -147,7 +146,7 @@
     line-height: 32px;
 }
 .footer-navigation{
-    
+
 }
 .footer-menu{
     
