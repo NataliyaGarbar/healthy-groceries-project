@@ -1,10 +1,3 @@
-.container {
-  min-width: 320px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -180,7 +173,6 @@
 @media screen and (min-width: 768px) {
   .header {
     width: 768px;
-    margin: 0 auto;
     padding-top: 32px;
     padding-bottom: 50px;
   }
@@ -313,7 +305,7 @@
     right: 0;
     left: 0;
     width: 1280px;
-    background-image: linear-gradient(to right, #576F35, #576F35 50%, transparent 50%),
+    background-image: linear-gradient(to right, #576F35, #576F35 45%, transparent 55%),
       no-repeat right;
     background-size: auto;
   }
