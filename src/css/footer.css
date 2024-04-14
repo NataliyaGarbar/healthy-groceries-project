@@ -116,15 +116,22 @@
 
 @media screen and (min-width: 768px) {
  
+
  .footer .footer-container {
     flex-direction: row;
     gap: 64px;
     flex-wrap: wrap;
-    padding: 32px;
     max-width: 768px;
     justify-content: space-between;
-    align-items: center;
 } 
+
+.footer{
+    padding: 0 32px;
+}
+
+.footer-container{
+
+}
 
 .footer-text{
     font-size: 16px;
@@ -183,7 +190,19 @@
 
 
 @media screen and (min-width: 1280px) {
-    .footer-container {
-
+.footer .footer-container{
+   
     }
+
+    .footer{
+        padding: 50px 100px;
+    }
+
+.footer-navigation {
+    
 }
+
+
+}
+
+
