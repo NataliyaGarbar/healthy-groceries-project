@@ -1,8 +1,6 @@
-
 .footer{
     background-color: #7a3145;
     /* padding: 40px 0; */
-
 }
 
 .footer .footer-container{
@@ -100,7 +98,7 @@
 .footer-end-content{
     display: flex;
     flex-direction: row;
-    gap: 49px;
+    
 }
 .footer-end{ 
     font-family: "Inter Tight", sans-serif;
@@ -148,20 +146,25 @@
     font-size: 32px;
     line-height: 32px;
 }
-.footer-address-menu{
-   
+.footer-navigation{
+    
 }
+.footer-menu{
+    
+}
+.footer-menu-content{
+
+}
+.footer-address-menu{
+    margin-left: auto;
+}
+
 
 .footer-adress-link{
     font-size: 18px;
     line-height: 20px;
 }
-.footer-address-list{
 
-}
-.footer-address{
-    
-}
 
 .footer-end-content{
     
@@ -170,9 +173,12 @@
 .footer-end{
     font-size: 18px;
     line-height: 20px;
+    margin-top: 100px;
+    margin-right: 280px;
 }
 
 .footer-the-end{
+    margin-top: 100px;
    font-weight: 500;
    font-size: 18px;
     line-height: 20px; 
