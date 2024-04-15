@@ -166,9 +166,9 @@
         padding: 50px 100px;
     }
     
-    .footer-container  {
+    /* .footer-container  {
     padding-left: 100px;
-    padding-right: 100px; }
+    padding-right: 100px; } */
 
 .footer-navigation {
     flex-direction: row;
