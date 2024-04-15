@@ -305,20 +305,8 @@
     right: 0;
     left: 0;
     width: 1280px;
-    background-image: linear-gradient(to right, #576F35, #576F35 45%, transparent 55%),
-      no-repeat right;
+    background-color: transparent;
     background-size: auto;
-  }
-
-  @media screen and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .header {
-      background: linear-gradient(to right,
-          #576F35,
-          #576F35 50%,
-          transparent 50%);
-    }
   }
 
   .header-container {
