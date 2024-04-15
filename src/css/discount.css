@@ -3,36 +3,37 @@
     padding-top: 83px;
     padding-bottom: 80px;
     box-sizing: border-box;
+   
 
 }
 
-
-
 .discount-text{
-   
-        font-weight: 600;
+         font-weight: 600;
         font-size: 48px;
         line-height: 104%;
         letter-spacing: -0.01em;
         text-transform: uppercase;
     color: #141414;
+   
 }
 .discount-text-green{
     background-color: #576f35;
-    border-radius: 12px;
+        border-radius: 12px;
         color:  #fbfbfb;
         display: block;
-        
+        padding-left: 10px;
+        padding-right: 10px;
+           
+            
 }
-
 
 @media screen and (min-width: 375px) {
     
 }
 @media screen and (min-width: 768px) {
     .discount {
-            padding-left: 32px;
-            padding-right: 32px;
+            padding-left: 12px;
+            padding-right: 12px;
             padding-top: 108px;
             padding-bottom: 100px;
         }
@@ -42,17 +43,14 @@
        
     }
     
-   
 }
 @media screen and (min-width: 1280px) {
     
     .discount{
         padding-top: 100px;
             padding-bottom: 100px;
-            padding-left: 113px;
-            padding-right: 113px;
-            
-            
+            padding-left: 93px;
+            padding-right: 93px;   
     }
     .discount-text{
         font-size: 76px;
