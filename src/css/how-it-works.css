@@ -362,7 +362,7 @@
         display: flex;
         width: 430px;
         height: 559px;
-        margin: 0 100px;
+        /* margin: 0 100px; */
     }
     .photo-how-it-works-tablet{
         display: none;
@@ -373,6 +373,10 @@
             padding: 100px 0px 0px 0px;
             gap: 10px;
             /* opacity: 0px; */
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 100px;
+            padding-bottom: 100px;
     }
     .description-how-it{
         width: 650px;
