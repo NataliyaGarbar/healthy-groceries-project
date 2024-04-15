@@ -116,6 +116,15 @@
     padding: 32px;
 }
 
+.icon-logo {
+    width: 18px;
+    height: 18px;
+}
+
+.icon-logotext{
+    width: 168px;
+    height: 15px;
+}
 .footer-container {
     padding-left: 32px;
     padding-right: 32px;
@@ -166,7 +175,6 @@
         padding: 50px 100px;
     }
     
-
 
 .footer-navigation {
     flex-direction: row;
