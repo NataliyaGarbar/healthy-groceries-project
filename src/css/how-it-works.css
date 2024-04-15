@@ -3,6 +3,7 @@
     min-width: 320px;
     /* margin: 0 auto; */
     padding: 0;
+    background: linear-gradient(90deg, #7a3145, #7a3145 50%, #576f35 50%, #576f35);
 }
 
 .hidden-how-it-works {
@@ -19,6 +20,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #7A3145;
+ 
 }
 
 .photo-how-it-works {
@@ -354,6 +356,13 @@
         /* max-width: 1280px;
         padding: 0 0; */
        
+    }
+
+
+    .how-itttt {
+        display: flex;
+        padding: 0;
+   
     }
     .cont-how-it-works{
         display: flex;
