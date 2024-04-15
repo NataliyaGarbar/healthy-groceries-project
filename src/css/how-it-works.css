@@ -353,6 +353,9 @@
     .container {
         /* max-width: 1280px;
         padding: 0 0; */
+       
+    }
+    .cont-how-it-works{
         display: flex;
     }
     .photo-how-it-works {
