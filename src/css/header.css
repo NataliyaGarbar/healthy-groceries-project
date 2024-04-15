@@ -1,20 +1,10 @@
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-
 .header {
-  background-color: #576F35;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: transparent;
   padding-top: 20px;
-  padding-bottom: 48px;
 }
 
 .header-container {
@@ -119,6 +109,7 @@
   height: 42px;
   align-content: center;
   text-align: center;
+  transition: background-color .3s cubic-bezier(.4, 0, .2, 1)
 }
 
 .mob-menu-item:not(:last-child) {
@@ -296,6 +287,7 @@
     color: #7A3145;
     min-width: 157px;
     height: 52px;
+    transition: background-color .3s cubic-bezier(.4, 0, .2, 1)
   }
 
   .header-button:hover,
@@ -320,7 +312,7 @@
   }
 
   .header-container {
-    width: 1180px;
+    width: 1080px;
   }
 
   .header-nav {
@@ -389,6 +381,7 @@
     text-transform: uppercase;
     color: #fbfbfb;
     margin-left: 20px;
+    transition: background-color .3s cubic-bezier(.4, 0, .2, 1)
   }
 
   button:hover,
