@@ -1,6 +1,6 @@
 .footer{
     background-color: #7a3145;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
 }
 .footer-container{
     padding: 0 20px;
@@ -166,9 +166,7 @@
         padding: 50px 100px;
     }
     
-    /* .footer-container  {
-    padding-left: 100px;
-    padding-right: 100px; } */
+
 
 .footer-navigation {
     flex-direction: row;
