@@ -31,7 +31,8 @@
 }
 @media screen and (min-width: 768px) {
     .discount {
-            
+            padding-left: 32px;
+            padding-right: 32px;
             padding-top: 108px;
             padding-bottom: 100px;
         }
@@ -48,6 +49,8 @@
     .discount{
         padding-top: 100px;
             padding-bottom: 100px;
+            padding-left: 113px;
+            padding-right: 113px;
             
             
     }
@@ -55,6 +58,9 @@
         font-size: 76px;
             line-height: 105%;
 
+    }
+    .discount-text-green{
+        display: inline;
     }
     
 }
