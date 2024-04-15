@@ -37,7 +37,6 @@
   display: none;
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
-  width: 335px;
   min-height: 238px;
   padding-left: 16.5px;
   padding-right: 16.5px;
@@ -75,8 +74,8 @@
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
   padding-top: 8px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 /* media */
