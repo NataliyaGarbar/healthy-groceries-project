@@ -1,6 +1,6 @@
 .discount{
 
-    padding-top: 20px;
+    padding-top: 83px;
     padding-bottom: 80px;
     box-sizing: border-box;
 
@@ -31,7 +31,8 @@
 }
 @media screen and (min-width: 768px) {
     .discount {
-            
+            padding-left: 32px;
+            padding-right: 32px;
             padding-top: 108px;
             padding-bottom: 100px;
         }
@@ -48,13 +49,18 @@
     .discount{
         padding-top: 100px;
             padding-bottom: 100px;
-            display: none;
+            padding-left: 113px;
+            padding-right: 113px;
+            
             
     }
     .discount-text{
         font-size: 76px;
             line-height: 105%;
 
+    }
+    .discount-text-green{
+        display: inline;
     }
     
 }
