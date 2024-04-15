@@ -1,5 +1,8 @@
 .vegetables {
     background-color: #7A3145;
+}
+
+.vegetables-container {
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -69,8 +72,8 @@
 }
 
 @media screen and (min-width: 768px) {
-    .vegetables {
-        padding: 100px 12px;
+    .vegetables-container {
+        padding: 100px 32px;
     }
     .vegetables-title {
         font-size: 64px;
@@ -102,9 +105,9 @@
     }
 }
 @media screen and (min-width: 1280px) {
-    .vegetables {
-        padding-left: 80px;
-        padding-right: 80px;
+    .vegetables-container {
+        padding-left: 100px;
+        padding-right: 100px;
     }
     .vegetables-title {
         margin-bottom: 25px;
