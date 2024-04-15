@@ -88,14 +88,21 @@ button {
   gap: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .your-order-box {
+  gap: 25px;
+}
+}
+
 @media screen and (min-width: 1280px) {
   .your-order-box {
     flex-direction: row;
+      gap: 24px;
   }
 }
 
 .your-order-form-cont {
-    background-color: #FBFBFB;
+  background-color: #fbfbfb;
   border-radius: 30px;
   padding: 40px 20px;
 }
@@ -110,8 +117,8 @@ button {
 
 @media screen and (min-width: 1280px) {
   .your-order-form-cont {
-      max-width: 529px;
-          padding: 50px;
+    max-width: 529px;
+    padding: 50px;
   }
 }
 .your-order-form-title {
@@ -127,7 +134,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .your-order-form-title {
-      margin-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 
@@ -140,7 +147,6 @@ button {
 }
 
 .form-container {
-
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -149,8 +155,8 @@ button {
 
 @media screen and (min-width: 1280px) {
   .form-container {
-  margin-bottom: 25px;
-}
+    margin-bottom: 25px;
+  }
 }
 
 .your-order-input {
@@ -158,11 +164,27 @@ button {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  outline: none;
   border-radius: 30px;
   border: 1px solid rgba(20, 20, 20, 0.2);
   height: 46px;
   padding: 14px 16px;
 }
+
+
+.your-order-input:valid {
+  border: 1px solid #3cbc81;
+
+}
+.your-order-input:invalid {
+  border: 1px solid #e74a3b;
+
+}
+.your-order-input:focus {
+ border: 1px solid #7A3145;
+}
+
+
 
 
 @media screen and (min-width: 768px) {
@@ -173,11 +195,6 @@ button {
     height: 52px;
   }
 }
-.your-order-input:valid {
-  border: 1px solid #3CBC81;}
-
-.your-order-input:invalid {
-  border: 1px solid #E74A3B; }
 
 
 .your-order-textarea {
@@ -206,19 +223,22 @@ button {
 
 .your-order-button {
   border-radius: 30px;
-color: #FBFBFB;
+  color: #fbfbfb;
   background: #576f35;
-  padding: 16px 129px;
+  padding: 16px 0;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.015em;
   text-transform: uppercase;
   border: none;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .your-order-button {
-    padding: 16px 191px;
+    /* padding: 16px 191px; */
     font-size: 18px;
     line-height: 1.11;
     letter-spacing: -0.015em;
