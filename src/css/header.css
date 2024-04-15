@@ -126,6 +126,16 @@
   text-align: center;
 }
 
+.mob-menu-item:hover,
+.mob-menu-item:focus {
+  background-color: #fbfbfb;
+}
+
+.mob-menu-link:hover,
+.mob-menu-link:focus {
+  color: #7A3145;
+}
+
 .mob-menu-link {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
