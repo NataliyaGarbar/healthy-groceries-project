@@ -25,7 +25,7 @@
       referrerpolicy="no-referrer"
     />
     
-    <link rel="stylesheet" href="/healthy-groceries-project/assets/index-e15a0290.css">
+    <link rel="stylesheet" href="/healthy-groceries-project/assets/index-770ecdd6.css">
   </head>
   <body>
     <header class="header">
@@ -363,12 +363,12 @@
     </div>
     <div class="your-order-box">
       <form class="your-order-form-cont" action="">
-        <h3 class="your-order-form-title">
+        <p class="your-order-form-title">
           Ordering <span class="your-order-form-span-red">from us</span> is
           quick and easy! Fill out
           <span class="your-order-form-span-green">the form</span> below and we
           will contact you !
-        </h3>
+        </p>
         <div class="form-container">
           <input
             class="your-order-input"
@@ -376,6 +376,8 @@
             id="your-order-input"
             name="your-order-input"
             placeholder="Full Name"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          
           />
           <input
             class="your-order-input"
@@ -383,12 +385,12 @@
             name="email"
             id="email"
             placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           />
           <textarea
             class="your-order-textarea"
             name="comment"
             id="comment"
-            
             placeholder="Comment"
           ></textarea>
         </div>
@@ -418,34 +420,39 @@
             "
             media="(min-width: 375px)"
           />
-         <img
-          srcset="../img/your-order/img-tab-2x.jpg 2x"
-          class="your-order-img"
-          src="../img/your-order/img-tab-1x.jpg"
-          alt=""
-          width="528"
-          height="273"
-        />
+          <img
+            srcset="../img/your-order/img-tab-2x.jpg 2x"
+            class="your-order-img"
+            src="../img/your-order/img-tab-1x.jpg"
+            alt="picture of a girl squeezing a lemon"
+            width="528"
+            height="273"
+          />
         </picture>
-        
+
         <p class="your-order-img-text">Follow us on our social networks:</p>
         <ul class="your-order-list">
           <li class="your-order-item">
             <a
               class="your-order-link"
               href="https://www.instagram.com/goitclub/ "
+              target="_blank"
               >instagram /</a
             >
           </li>
           <li class="your-order-item">
-            <a class="your-order-link" href="https://www.youtube.com/c/GoIT "
+            <a
+              class="your-order-link"
+              href="https://www.facebook.com/c/GoIT "
+              target="_blank"
               >facebook /</a
             >
           </li>
           <li class="your-order-item">
             <a
               class="your-order-link"
-              href="https://www.facebook.com/goITclub/  "
+              href="https://www.youtube.com/goITclub/  "
+              target="_blank"
               >youtube</a
             >
           </li>
