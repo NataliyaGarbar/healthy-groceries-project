@@ -246,7 +246,6 @@ button {
 
 @media screen and (min-width: 768px) {
   .your-order-button {
-    /* padding: 16px 191px; */
     font-size: 18px;
     line-height: 1.11;
     letter-spacing: -0.015em;
@@ -257,7 +256,6 @@ button {
   border-radius: 30px;
   background: #576f35;
   padding: 40px 20px;
-  /* width: 335px; */
 }
 
 @media screen and (min-width: 768px) {
