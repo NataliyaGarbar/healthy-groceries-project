@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 35px;
 
 }
 .photo-how-it-works-tablet {
@@ -277,7 +277,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 35px;
     }
     .tittle-how-it-works {
         width: 450px;
