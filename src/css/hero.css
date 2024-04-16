@@ -1,7 +1,6 @@
 .hero {
   min-height: 812px;
-  background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-    url(/img/hero/vegetables-mob.jpg) no-repeat center bottom/410px;
+  background: url(/img/hero/vegetables-mob.jpg) no-repeat center bottom/410px;
   background-color: #576F35;
 }
 
@@ -9,8 +8,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .hero {
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-      url(/img/hero/vegetables-mob2x.jpg) no-repeat center bottom/410px;
+    background: url(/img/hero/vegetables-mob2x.jpg) no-repeat center bottom/410px;
     padding: 48px 0 40px;
     background-color: #576F35;
 
@@ -49,8 +47,7 @@ h1 {
 @media screen and (min-width: 768px) {
   .hero {
     min-height: 1024px;
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-      url(/img/hero/vegetables-tab.jpg) no-repeat center bottom/870px;
+    background: url(/img/hero/vegetables-tab.jpg) no-repeat center bottom/870px;
     background-color: #576F35;
     padding: 50px 32px 0;
   }
@@ -59,8 +56,7 @@ h1 {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .hero {
-      background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-        url(/img/hero/vegetables-tab2x.jpg) no-repeat center bottom/870px;
+      background: url(/img/hero/vegetables-tab2x.jpg) no-repeat center bottom/870px;
       background-color: #576F35;
     }
   }
