@@ -1,26 +1,18 @@
 .cont-how-it-works {
     /* max-width: 375px; */
-    min-width: 320px;
+    /* min-width: 320px; */
     /* margin: 0 auto; */
     padding: 0;
-    /* background: linear-gradient(90deg, #7a3145, #7a3145 50%, #576f35 50%, #576f35); */
+        background: linear-gradient(180deg, #7a3145, #7a3145 46%, #576f35 60%, #576f35);
     
 }
-/* .container {
-    padding: 0;
-}  */
+
 
 .how-it-works-container{
     padding: 0;
+    background-color: #7A3145;
 }
-/* .hidden-how-it-works {
-        position: absolute;
-        left: -9999px;
-        top: -9999px;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-} */
+
 .how-it-works {
     padding-left: 20px;
     padding-right: 20px;
@@ -129,6 +121,7 @@
     gap: 20px;
     list-style-type: none;
     padding: 0;
+    margin-bottom: 0;
 
 }
 
@@ -359,6 +352,9 @@
         .how-it-works-container {
             padding: 0;
         }
+                .cont-how-it-works {
+                    background: linear-gradient(180deg, #7a3145, #7a3145 46%, #576f35 60%, #576f35);
+                }
 }
 
 @media screen and (min-width: 1280px) {
@@ -376,6 +372,7 @@
     }
     .cont-how-it-works{
         display: flex;
+        background: linear-gradient(90deg, #7a3145, #7a3145 50%, #576f35 50%, #576f35);
     }
     .photo-how-it-works {
         display: flex;
