@@ -1,9 +1,9 @@
 .footer{
     background-color: #7a3145;
-    padding: 40px 0; 
+    padding: 40px 20px;  
 }
 .footer-container{  
-    margin: 0 auto;
+   
 }
         
 
@@ -25,7 +25,6 @@
     font-size: 14px;
     line-height: 18px;
     color: #fbfbfb;
-    padding-top: 14px;
     margin-bottom: 40px;
 }
 
@@ -111,9 +110,11 @@
 @media screen and (min-width: 768px) {
 
 .footer{
-    padding: 32px 12px;
+    padding: 32px;
+} 
+.footer-container{
+    padding: 50px 100px;
 }
-
 .icon-logo {
     width: 18px;
     height: 18px;
@@ -154,7 +155,6 @@
     gap: 25px;
     font-weight: 600;
     font-size: 18px;
-    margin-bottom: 100px
 }
 
 
@@ -170,9 +170,11 @@
 @media screen and (min-width: 1280px) {
 
     .footer{
-        padding: 50px 80px;
-    }
     
+    }
+.footer-container {
+    padding: 50px 100px;
+}
 
 .footer-navigation {
     flex-direction: row;
@@ -191,11 +193,14 @@
 }
 
 .footer-menu{
-        gap: 25px;
-            margin-bottom: 125px;
+     gap: 25px;
 }
 
 .footer-address{
+    margin-bottom: 0;
+    
+}
+.footer-text{
     margin-bottom: 0;
 }
 }
