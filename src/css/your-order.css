@@ -160,6 +160,7 @@ button {
 }
 
 .your-order-input {
+  color: #141414;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -175,11 +176,11 @@ button {
 }
 
 .your-order-input:focus {
-  border-color: #7a3145;
+  border: 1px solid #7a3145;
 }
 
 .your-order-input:not(:placeholder-shown):invalid {
-  border-color: #e74a3b;
+  border: 1px solid #e74a3b;
 }
 
 .your-order-input:not(:placeholder-shown):valid {
@@ -191,7 +192,7 @@ button {
 }
 
 .your-order-textarea:focus {
-  border-color: #7a3145;
+  border: 1px solid #7a3145;
 }
 
 @media screen and (min-width: 768px) {
