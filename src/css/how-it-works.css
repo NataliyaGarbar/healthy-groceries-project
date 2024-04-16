@@ -6,7 +6,13 @@
     /* background: linear-gradient(90deg, #7a3145, #7a3145 50%, #576f35 50%, #576f35); */
     
 }
+/* .container {
+    padding: 0;
+}  */
 
+.how-it-works-container{
+    padding: 0;
+}
 .hidden-how-it-works {
         position: absolute;
         left: -9999px;
@@ -350,6 +356,9 @@
             text-align: left;
             margin-top: 6px;
     }
+        .how-it-works-container {
+            padding: 0;
+        }
 }
 
 @media screen and (min-width: 1280px) {

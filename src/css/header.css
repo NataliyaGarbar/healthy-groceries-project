@@ -1,9 +1,5 @@
 .header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  background-color: transparent;
+  background-color: #576F35;
   padding-top: 20px;
 }
 
@@ -166,16 +162,13 @@
 
 @media screen and (min-width: 375px) {
   .header {
-    width: 375px;
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .header {
-    width: 768px;
     padding-top: 32px;
-    padding-bottom: 50px;
   }
 
   .header-container {
@@ -186,6 +179,16 @@
   .logo {
     width: 194px;
     height: 18px;
+  }
+
+  .header-logo-left {
+    width: 18px;
+    height: 18px;
+  }
+
+  .header-logo-right {
+    width: 168px;
+    height: 15px;
   }
 
   .open-menu-icons {
@@ -384,14 +387,8 @@
     transition: background-color .3s cubic-bezier(.4, 0, .2, 1)
   }
 
-  button:hover,
-  button:focus {
-    background-color: #fbfbfb;
-    color: #7a3145;
+  .header-btn:hover,
+  .header-btn:focus {
+    background-color: #622133;
   }
-
-  .buttin:active {
-    color: #fbfbfb;
-  }
-
 }
