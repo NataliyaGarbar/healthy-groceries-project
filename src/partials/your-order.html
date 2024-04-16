@@ -27,7 +27,7 @@
             name="your-order-input"
             placeholder="Full Name"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          
+            required
           />
           <input
             class="your-order-input"
@@ -36,6 +36,7 @@
             id="email"
             placeholder="Email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
           />
           <textarea
             class="your-order-textarea"
@@ -51,29 +52,29 @@
         <picture>
           <source
             srcset="
-              ../img/your-order/img-desk-1x.jpg 1x,
-              ../img/your-order/img-desk-2x.jpg 2x
+              ./img/your-order/img-desk-1x.jpg 1x,
+              ./img/your-order/img-desk-2x.jpg 2x
             "
             media="(min-width: 1280px)"
           />
           <source
             srcset="
-              ../img/your-order/img-tab-1x.jpg 1x,
-              ../img/your-order/img-tab-2x.jpg 2x
+              ./img/your-order/img-tab-1x.jpg 1x,
+              ./img/your-order/img-tab-2x.jpg 2x
             "
             media="(min-width: 768px)"
           />
           <source
             srcset="
-              ../img/your-order/img-mob-1x.jpg 1x,
-              ../img/your-order/img-mob-2x.jpg 2x
+              ./img/your-order/img-mob-1x.jpg 1x,
+              ./img/your-order/img-mob-2x.jpg 2x
             "
             media="(min-width: 375px)"
           />
           <img
-            srcset="../img/your-order/img-tab-2x.jpg 2x"
+            srcset="./img/your-order/img-tab-2x.jpg 2x"
             class="your-order-img"
-            src="../img/your-order/img-tab-1x.jpg"
+            src="./img/your-order/img-tab-1x.jpg"
             alt="picture of a girl squeezing a lemon"
             width="528"
             height="273"
