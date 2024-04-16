@@ -1,6 +1,6 @@
 .header {
   background-color: #576F35;
-  padding-top: 20px;
+  padding: 20 20 0;
 }
 
 .header-container {
@@ -168,11 +168,10 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    padding-top: 32px;
+    padding: 32px 32px 0;
   }
 
   .header-container {
-    width: 728px;
     min-height: 40px;
   }
 
@@ -312,10 +311,12 @@
     width: 1280px;
     background-color: transparent;
     background-size: auto;
+    padding: 0;
   }
 
   .header-container {
     width: 1120px;
+    padding: 32px 100px;
   }
 
   .header-nav {
