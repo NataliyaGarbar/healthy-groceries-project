@@ -3,7 +3,8 @@
     min-width: 320px;
     /* margin: 0 auto; */
     padding: 0;
-    background: linear-gradient(90deg, #7a3145, #7a3145 50%, #576f35 50%, #576f35);
+    /* background: linear-gradient(90deg, #7a3145, #7a3145 50%, #576f35 50%, #576f35); */
+    
 }
 
 .hidden-how-it-works {
@@ -359,7 +360,7 @@
     }
 
 
-    .how-itttt {
+    .how-it-works-container {
         display: flex;
         padding: 0;
    
