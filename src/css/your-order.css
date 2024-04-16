@@ -34,12 +34,10 @@ button {
   /* width: 640px; */
 }
 .your-order-title {
-  color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
-  letter-spacing: 0.015em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -63,8 +61,6 @@ button {
 }
 
 .your-order-text {
-  color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 14px;
   line-height: 1.29;
   margin-bottom: 40px;
@@ -92,9 +88,16 @@ button {
   gap: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .your-order-box {
+  gap: 25px;
+}
+}
+
 @media screen and (min-width: 1280px) {
   .your-order-box {
     flex-direction: row;
+      gap: 24px;
   }
 }
 
@@ -114,25 +117,24 @@ button {
 
 @media screen and (min-width: 1280px) {
   .your-order-form-cont {
-      max-width: 529px;
-          padding: 50px;
+    max-width: 529px;
+    padding: 50px;
   }
 }
 .your-order-form-title {
   color: #141414;
-  font-family: 'Inter Tight';
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.08;
-  letter-spacing: 0.015em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .your-order-form-title {
-      margin-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 
@@ -153,21 +155,37 @@ button {
 
 @media screen and (min-width: 1280px) {
   .form-container {
-  margin-bottom: 25px;
-}
+    margin-bottom: 25px;
+  }
 }
 
 .your-order-input {
   color: #141414;
-  font-family: 'Inter Tight';
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
+  outline: none;
   border-radius: 30px;
   border: 1px solid rgba(20, 20, 20, 0.2);
   height: 46px;
   padding: 14px 16px;
 }
+
+
+.your-order-input:valid {
+  border: 1px solid #3cbc81;
+
+}
+.your-order-input:invalid {
+  border: 1px solid #e74a3b;
+
+}
+.your-order-input:focus {
+ border: 1px solid #7A3145;
+}
+
+
+
 
 @media screen and (min-width: 768px) {
   .your-order-input {
@@ -178,14 +196,14 @@ button {
   }
 }
 
+
 .your-order-textarea {
   width: 100%;
   height: 91px;
   color: #141414;
-  font-family: 'Inter Tight';
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   border-radius: 15px;
   border: 1px solid rgba(20, 20, 20, 0.2);
   padding: 14px 16px;
@@ -205,23 +223,25 @@ button {
 
 .your-order-button {
   border-radius: 30px;
-  background: #576f35;
-  padding: 16px 129px;
   color: #fbfbfb;
-  font-family: 'Inter Tight';
+  background: #576f35;
+  padding: 16px 0;
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: 0.015em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   border: none;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .your-order-button {
-    padding: 16px 191px;
+    /* padding: 16px 191px; */
     font-size: 18px;
     line-height: 1.11;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
   }
 }
 .your-order-img-cont {
@@ -260,12 +280,11 @@ button {
 
 .your-order-img-text {
   color: rgba(251, 251, 251, 0.5);
-  font-family: 'Inter Tight';
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.29;
-  letter-spacing: 0.015em;
+  letter-spacing: -0.015em;
   margin-bottom: 14px;
 }
 
@@ -273,7 +292,7 @@ button {
   .your-order-img-text {
     font-size: 18px;
     line-height: 1.11;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
     margin-bottom: 15px;
   }
 }
@@ -291,17 +310,15 @@ button {
 }
 
 .your-order-link {
-  color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 24px;
   font-weight: 600;
   line-height: 1.08;
-  letter-spacing: 0.015em;
+  letter-spacing: -0.015em;
 }
 @media screen and (min-width: 768px) {
   .your-order-link {
     font-size: 32px;
     line-height: 1;
-    letter-spacing: 0.015em;
+    letter-spacing: -0.015em;
   }
 }
