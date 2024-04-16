@@ -11,7 +11,7 @@
   .hero {
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
       url(/img/hero/vegetables-mob2x.jpg) no-repeat center bottom/410px;
-
+    padding: 48px 20px 40px;
     background-color: #576F35;
 
   }
@@ -22,16 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 48px 20px 40px;
-
 }
-
-/* @media screen and (min-width: 375px) {
-  .hero {
-    width: 375px;
-    margin: 0 auto;
-  }
-} */
 
 h1 {
   font-weight: 600;
@@ -61,6 +52,7 @@ h1 {
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
       url(/img/hero/vegetables-tab.jpg) no-repeat center bottom/870px;
     background-color: #576F35;
+    padding: 50px 32px 0;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -71,10 +63,6 @@ h1 {
         url(/img/hero/vegetables-tab2x.jpg) no-repeat center bottom/870px;
       background-color: #576F35;
     }
-  }
-
-  .hero-container {
-    padding: 50px 32px 50px;
   }
 
   h1 {
@@ -107,6 +95,7 @@ h1 {
     background: linear-gradient(to right, rgba(20, 20, 20, 0.2) 0%,
         rgba(20, 20, 20, 0.2) 100%),
       url(/img/hero/vegetables-desk.jpg) no-repeat top right/650px;
+    padding: 0;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
