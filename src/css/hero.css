@@ -19,7 +19,6 @@
 
 .hero-container {
   min-width: 300px;
-  background-color: #576F35;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -27,12 +26,12 @@
 
 }
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .hero {
     width: 375px;
     margin: 0 auto;
   }
-}
+} */
 
 h1 {
   font-weight: 600;
@@ -58,10 +57,9 @@ h1 {
 
 @media screen and (min-width: 768px) {
   .hero {
-    width: 768px;
     min-height: 1024px;
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-      url(/img/hero/vegetables-tab.jpg) no-repeat center bottom/873px;
+      url(/img/hero/vegetables-tab.jpg) no-repeat center bottom/870px;
     background-color: #576F35;
   }
 
@@ -70,7 +68,7 @@ h1 {
   (min-resolution: 2dppx) {
     .hero {
       background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(20, 20, 20, 0.2) 100%),
-        url(/img/hero/vegetables-tab2x.jpg) no-repeat center bottom/873px;
+        url(/img/hero/vegetables-tab2x.jpg) no-repeat center bottom/870px;
       background-color: #576F35;
     }
   }
