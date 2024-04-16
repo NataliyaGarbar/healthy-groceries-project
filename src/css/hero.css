@@ -102,6 +102,7 @@ h1 {
 @media screen and (min-width: 1280px) {
   .hero {
     width: 1280px;
+    margin: 0 auto;
     min-height: 800px;
     background: linear-gradient(to right, rgba(20, 20, 20, 0.2) 0%,
         rgba(20, 20, 20, 0.2) 100%),
